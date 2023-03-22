@@ -34,6 +34,7 @@ func Connect() *gorm.DB {
 	DB = db
 	db.AutoMigrate(
 		&models.User{},
+		&models.Blog{},
 	)
 	return db
 
