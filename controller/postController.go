@@ -100,3 +100,4 @@ func DeletePost(c *fiber.Ctx) error {
 		"message": "Record deleted successfully!",
 	})
 }
+
